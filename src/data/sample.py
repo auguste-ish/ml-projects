@@ -1,11 +1,11 @@
-from typing import List
+
 import numpy as np
 import pandas as pd
 
 
 def generate_gaussian_mixture_sample(
     means: np.ndarray,
-    covs: List[np.ndarray],
+    covs: list[np.ndarray],
     size: int,
 ) -> pd.DataFrame:
     """
