@@ -4,6 +4,14 @@ A small collection of academic ML projects I've worked on.
 
 ## ML
 
+### Unsupervised Learning
+
+| Project | Description |
+|---------|-------------|
+| [K-means](src/ml/1_unsupervised_learning/01_kmeans/notes.pdf) | Mathematical formulation of K-means clustering  and application for unsupervised clustering on basic examples |
+
+
+
 ### Supervised Learning
 
 | Project | Description |
@@ -16,3 +24,10 @@ A small collection of academic ML projects I've worked on.
 | Project | Description |
 |---------|-------------|
 | [Do spectral gradient updates help ?](src/optim-ml/spectral_gd/spectral_gd.pdf) | Comparison of performances of Spectral GD and other GD variants |
+
+
+## References
+
+- Master MIADS @ Paris Cite
+    - Optimization for ML - Aurélie Fischer
+    - Introduction to ML - Tam Le

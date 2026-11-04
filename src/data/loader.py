@@ -36,6 +36,25 @@ def load_cercles_ds(
     return df_c
 
 
+def load_noeud_ds(
+) -> pd.DataFrame:
+    """
+    Returns a dataframe with 
+    x1 (feature 1), x2 (feature 1)
+    """
+    # Cercles dataset
+    fn = "noeud.txt"
+    fp_ds_n = DIR_DATASETS / fn
+    assert os.path.exists(fp_ds_n)
+    df = pd.read_csv(fp_ds_n, sep=" ")
+    print(f"Read: {fn}")
+    assert len(df) > 0, f'No row in file: {fp_ds_n}'
+
+    df = df[["x1", "x2"]]
+    
+    return df
+
+
 if __name__ == '__main__':
     # fp = Path('.') / 'data' / 'datasets'
     print(load_cercles_ds())
