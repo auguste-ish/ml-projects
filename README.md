@@ -2,6 +2,13 @@
 
 A small collection of academic ML projects I've worked on.
 
+## Optimization for ML
+
+| Project | Description |
+|---------|-------------|
+| [Do spectral gradient updates help ?](src/optim-ml/spectral_gd/spectral_gd.pdf) | Comparison of performances of Spectral GD and other GD variants |
+
+
 ## ML
 
 ### Unsupervised Learning
@@ -9,7 +16,8 @@ A small collection of academic ML projects I've worked on.
 | Project | Description |
 |---------|-------------|
 | [K-means](src/ml/1_unsupervised_learning/01_kmeans/notes.pdf) | Mathematical formulation of K-means clustering  and application for unsupervised clustering on basic examples |
-
+| [Spectral Clustering](src/ml/1_unsupervised_learning/01_kmeans/notes.pdf) | Mathematical formulation of Spectral clustering  and application for unsupervised clustering on basic example |
+| [Gaussian Mixture Model](src/ml/1_unsupervised_learning/02_gaussian_mixture_models/notebook.ipynb) | Example of clustering with GMM model, #TODO: mathematical formulation and EM algorithm |
 
 
 ### Supervised Learning
@@ -17,13 +25,6 @@ A small collection of academic ML projects I've worked on.
 | Project | Description |
 |---------|-------------|
 | [Discriminant Analysis](src/ml/2_supervised_learning/1_discriminant_analysis/notes.pdf) | Mathematical formulation of Linear Discriminant Analysis (LDA) & Quadratic Discriminant Analysis (QDA) and application for supervised clustering on basic examples |
-
-
-## Optimization for ML
-
-| Project | Description |
-|---------|-------------|
-| [Do spectral gradient updates help ?](src/optim-ml/spectral_gd/spectral_gd.pdf) | Comparison of performances of Spectral GD and other GD variants |
 
 
 ## References
