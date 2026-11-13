@@ -30,5 +30,5 @@ A small collection of academic ML projects I've worked on.
 ## References
 
 - Master MIADS @ Paris Cite
-    - Optimization for ML - Aurélie Fischer
-    - Introduction to ML - Tam Le
+    - Optimization for ML - Tam Le
+    - Introduction to ML - Aurélie Fischer
