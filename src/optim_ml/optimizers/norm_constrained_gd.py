@@ -1,13 +1,12 @@
 from collections.abc import Callable
 from typing import overload
 
+import torch
 from torch import Tensor
 from torch.optim.optimizer import (
     Optimizer,
     ParamsT,
 )
-
-import torch
 
 
 def spectral_gd_step(
