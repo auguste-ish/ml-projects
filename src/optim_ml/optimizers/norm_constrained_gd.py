@@ -64,7 +64,6 @@ def frobenius_gd_cauchy_step(
     hessian: Tensor,
 ) -> Tensor:
     
-
     a = torch.linalg.norm(grad_w)
     b = torch.trace(
         torch.matmul(
