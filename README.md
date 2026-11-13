@@ -6,7 +6,7 @@ A small collection of academic ML projects I've worked on.
 
 | Project | Description |
 |---------|-------------|
-| [Do spectral gradient updates help ?](src/optim-ml/spectral_gd/spectral_gd.pdf) | Comparison of performances of Spectral GD and other GD variants |
+| [Do spectral gradient updates help ?](src/optim_ml/spectral_gd/spectral_gd.pdf) | Comparison of performances of Spectral GD and other GD variants |
 
 
 ## ML
