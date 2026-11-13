@@ -16,7 +16,7 @@ A small collection of academic ML projects I've worked on.
 | Project | Description |
 |---------|-------------|
 | [K-means](src/ml/1_unsupervised_learning/01_kmeans/notes.pdf) | Mathematical formulation of K-means clustering  and application for unsupervised clustering on basic examples |
-| [Spectral Clustering](src/ml/1_unsupervised_learning/01_kmeans/notes.pdf) | Mathematical formulation of Spectral clustering  and application for unsupervised clustering on basic example |
+| [Spectral Clustering](src/ml/1_unsupervised_learning/03_spectral_clustering/notes.pdf) | Mathematical formulation of Spectral clustering  and application for unsupervised clustering on basic example |
 | [Gaussian Mixture Model] | Example of clustering with GMM model, #TODO: mathematical formulation and EM algorithm |
 
 
